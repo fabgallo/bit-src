@@ -9,18 +9,6 @@ import upath from 'upath';
 // Enforce jsdom dependency, so we'd get ~11.11.0, and avoid the fatal localStorage bug in 11.12.0
 import 'jsdom';
 
-// Enzyme expects an adapter corresponding to the library currently being tested to be configured before using any of Enzyme's top level APIs
-import { configure } from 'enzyme';
-import Adapter from 'enzyme-adapter-react-16';
-
-configure({ adapter: new Adapter() });
-
-// Currently we have to spy on the Storage prototype to mock localStorage, see https://github.com/facebook/jest/issues/6798 for more info
-jest.spyOn(Storage.prototype, 'setItem');
-jest.spyOn(Storage.prototype, 'getItem');
-jest.spyOn(Storage.prototype, 'removeItem');
-jest.spyOn(Storage.prototype, 'clear');
-
 const run = (specFile) => {
     const convertedSpecFile = upath.normalize(specFile);
     const resultsFilePath = `${extractFileNameFromPath(specFile)}-results.json`;
@@ -30,7 +18,7 @@ const run = (specFile) => {
     // There is not valid json return, see details here:
     // https://github.com/facebook/jest/issues/4399
 
-    const cmd = `"${process.execPath}" ${jestPath} ${convertedSpecFile} --rootDir=${require('path').dirname(specFile)} --config=${__dirname}/jest.config.js --json --outputFile="${resultsFilePath}"`;
+    const cmd = `"${process.execPath}" ${jestPath} ${convertedSpecFile} --rootDir=${require('path').dirname(specFile)} --config=${__dirname}/jest.config.js --setupTestFrameworkScriptFile=${__dirname}/setupTests.js --json --outputFile="${resultsFilePath}"`;
     return exec(cmd).then(({err, stdout, stderr}) => {
         const parsedResults = readResults(resultsFilePath);
         return convertJestFormatToBitFormat(parsedResults);

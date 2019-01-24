@@ -1,14 +1,14 @@
 module.exports = {
-      testRegex: "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js|jsx)$",
-      "moduleFileExtensions": [
+    testRegex: "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js|jsx)$",
+    moduleFileExtensions: [
         "ts",
         "tsx",
         "js",
         "jsx"
-      ],
-      testPathIgnorePatterns: [
+    ],
+    testPathIgnorePatterns: [
         "/node_modules/",
         "/.git/"
-      ],
-      testURL: "http://localhost/"
-  };
+    ],
+    testURL: "http://localhost/"
+};
