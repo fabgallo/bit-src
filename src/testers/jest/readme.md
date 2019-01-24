@@ -1,0 +1,10 @@
+# A testing environment for React components using Jest.
+ * Bit's Jest testing environment for components.
+ * Based on the official [Bit's Jest tester](https://bitsrc.io/bit/envs/testers/jest?version=0.0.35) v0.0.35.
+ * Modified to avoid `SecurityError: localStorage is not available for opaque origins`
+
+## How to use?
+import the environment
+```bash
+bit import upchain.utils/testers/jest -t
+```
