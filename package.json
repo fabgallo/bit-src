@@ -4,14 +4,15 @@
   "homepage": "https://bitsrc.io/bit/envs/testers/jest",
   "main": "dist/index.js",
   "dependencies": {
-    "child-process-promise": "^2.2.1",
+    "@bit/bit.utils.file.extract-file-name-from-path": "0.0.3",
+    "@bit/bit.utils.validation.empty": "0.0.1",
+    "child-process-promise": "2.2.1",
+    "enzyme": "3.8.0",
+    "enzyme-adapter-react-16": "1.7.1",
     "jest": "22.4.3",
     "jsdom": "~11.11.0",
-    "upath": "^1.1.0",
-    "@bit/bit.utils.file.extract-file-name-from-path": "0.0.3",
-    "@bit/bit.utils.validation.empty": "0.0.1"
+    "upath": "^1.1.0"
   },
-  "devDependencies": {},
   "peerDependencies": {},
-  "license": "SEE LICENSE IN LICENSE"
+  "license": "None"
 }
