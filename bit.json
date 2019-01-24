@@ -2,9 +2,7 @@
     "env": {
         "compiler": "bit.envs/compilers/babel@0.0.20"
     },
-    "dependencies": {
-        "upchain.react/components/upc-icon": "0.0.1"
-    },
-    "componentsDefaultDirectory": "components/{namespace}/{name}",
+    "dependencies": {},
+    "componentsDefaultDirectory": "src/{namespace}/{name}",
     "packageManager": "yarn"
 }

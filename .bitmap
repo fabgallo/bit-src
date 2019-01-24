@@ -31,6 +31,6 @@
         ],
         "mainFile": "src/testers/jest/index.js",
         "origin": "AUTHORED"
-    }
+    },
     "version": "13.0.4"
 }
