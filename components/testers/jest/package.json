@@ -1,6 +1,6 @@
 {
     "name": "@bit/upchain.utils.testers.jest",
-    "version": "0.0.40",
+    "version": "0.0.41",
     "homepage": "https://bitsrc.io/upchain/utils/testers/jest",
     "main": "dist/index.js",
     "dependencies": {
