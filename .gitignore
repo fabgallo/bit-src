@@ -2,10 +2,13 @@
 
 # dependencies
 /node_modules
+/**/node_modules
 
 # production
 /build
+/**/build
 /dist
+/**/dist
 
 #ide
 .idea/

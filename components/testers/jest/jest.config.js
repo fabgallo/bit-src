@@ -6,6 +6,9 @@ module.exports = {
         "js",
         "jsx"
     ],
+    snapshotSerializers: [
+        "enzyme-to-json/serializer"
+    ],
     testPathIgnorePatterns: [
         "/node_modules/",
         "/.git/"
