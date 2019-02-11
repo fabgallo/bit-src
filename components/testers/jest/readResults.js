@@ -1,4 +1,5 @@
 import fs from 'fs';
+
 const readResults = (filePath = 'results.json') => {
     const results = fs.readFileSync(filePath);
     const parsedResults = JSON.parse(results);

@@ -1,11 +1,8 @@
 {
-    "env": {
-        "compiler": "bit.envs/compilers/babel@0.0.20"
-    },
+    "env": {},
     "dependencies": {
-        "bit.utils/file/extract-file-name-from-path": "1.0.0",
-        "bit.utils/validation/empty": "1.0.0"
+        "upchain.utils/testers/jest": "0.0.38"
     },
-    "componentsDefaultDirectory": "components/{namespace}/{name}",
+    "componentsDefaultDirectory": "components/{name}",
     "packageManager": "npm"
 }

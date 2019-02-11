@@ -1,7 +1,5 @@
 {
-  "dependencies": {
-    "@bit/upchain.utils.testers.jest": "file:./components/testers/jest",
-    "@bit/bit.utils.file.extract-file-name-from-path": "1.0.0",
-    "@bit/bit.utils.validation.empty": "1.0.0"
-  }
+    "dependencies": {
+        "@bit/upchain.utils.testers.jest": "file:./components/testers/jest"
+    }
 }
