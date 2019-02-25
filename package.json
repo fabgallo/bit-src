@@ -1,5 +1,6 @@
 {
-    "dependencies": {
-        "@bit/upchain.utils.testers.jest": "file:./components/testers/jest"
-    }
+  "dependencies": {
+    "@bit/upchain.utils.testers.jest": "file:./components/testers/jest",
+    "@bit/bit.envs.compilers.typescript": "file:./components/compilers/typescript"
+  }
 }
