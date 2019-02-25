@@ -1,24 +1,23 @@
 {
-    "name": "@bit/upchain.utils.testers.jest",
-    "version": "0.0.38",
-    "homepage": "https://bitsrc.io/upchain/utils/testers/jest",
-    "main": "dist/index.js",
-    "dependencies": {
-        "@bit/bit.utils.file.extract-file-name-from-path": "^1.0.0",
-        "@bit/bit.utils.validation.empty": "^1.0.0",
-        "child-process-promise": "^2.2.1",
-        "enzyme": "3.8.0",
-        "enzyme-adapter-react-16": "1.7.1",
-        "enzyme-to-json": "3.3.5",
-        "identity-obj-proxy": "^3.0.0",
-        "jest": "23.6.0",
-        "jsdom": "~11.11.0",
-        "react": "16.7.0",
-        "react-dom": "16.7.0",
-        "upath": "^1.1.0"
-    },
-    "devDependencies": {},
-    "peerDependencies": {},
-    "componentRootFolder": "components/testers/jest",
-    "license": "UNLICENSED"
+  "name": "@bit/upchain.utils.testers.jest",
+  "version": "0.0.44",
+  "homepage": "https://bitsrc.io/upchain/utils/testers/jest",
+  "main": "dist/index.js",
+  "dependencies": {
+    "@bit/bit.utils.file.extract-file-name-from-path": "^1.0.0",
+    "@bit/bit.utils.validation.empty": "^1.0.0",
+    "child-process-promise": "^2.2.1",
+    "enzyme": "3.8.0",
+    "enzyme-adapter-react-16": "1.7.1",
+    "enzyme-to-json": "3.3.5",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "23.6.0",
+    "jsdom": "~11.11.0",
+    "react": "16.7.0",
+    "react-dom": "16.7.0",
+    "upath": "^1.1.0"
+  },
+  "devDependencies": {},
+  "peerDependencies": {},
+  "license": "UNLICENSED"
 }

@@ -1,7 +1,7 @@
 {
     "env": {},
     "dependencies": {
-        "upchain.utils/testers/jest": "0.0.38"
+        "upchain.utils/testers/jest": "0.0.44"
     },
     "componentsDefaultDirectory": "components/{name}",
     "packageManager": "npm"

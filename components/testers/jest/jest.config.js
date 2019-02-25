@@ -19,8 +19,5 @@ module.exports = {
         "/node_modules/",
         "/.git/"
     ],
-    testURL: "http://localhost/",
-    setupFiles: [
-        `${__dirname}/jest.setup.js`
-    ]
+    testURL: "http://localhost/"
 };
