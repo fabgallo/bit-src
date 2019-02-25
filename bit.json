@@ -1,8 +1,8 @@
 {
     "env": {},
     "dependencies": {
-        "upchain.utils/testers/jest": "0.0.47",
-        "upchain.utils/compilers/typescript": "0.0.6"
+        "upchain.utils/testers/jest": "0.0.48",
+        "upchain.utils/compilers/typescript": "0.0.7"
     },
     "componentsDefaultDirectory": "components/{name}",
     "packageManager": "npm"

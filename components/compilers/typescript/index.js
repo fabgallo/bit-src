@@ -31,11 +31,11 @@ const compile = (files, distPath) => {
 
   // Divide files by whether we should compile them, according to file type.
   const filesByToCompile = groupBy(files, _toCompile);
-  
+
   const compiled = (!filesByToCompile.true || filesByToCompile.true.length === 0) ? [] : filesByToCompile.true.map(file => compileSingleFile(file, compilerOptions, distPath)).reduce((a, b) => a.concat(b));
   const nonCompiled = !filesByToCompile.false ? [] : filesByToCompile.false.map(file => _getDistFile(file, distPath, false));
 
-  return compiled.concat(nonCompiled);;
+  return compiled.concat(nonCompiled);
 }
 
 const _toCompile = (file) => {
@@ -55,8 +55,8 @@ const _getDistFile = (file, distPath, reviseExtension, content) => {
 }
 
 const _getDistFilePath = (file, distPath, reviseExtension) => {
-  var fileRelative = file.relative;
-  
+  let fileRelative = file.relative;
+
   if (reviseExtension) fileRelative = _getRevisedFileExtension(file.relative);
 
   return path.join(distPath, fileRelative);

@@ -1,6 +1,6 @@
 {
   "name": "@bit/upchain.utils.compilers.typescript",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "homepage": "https://bitsrc.io/upchain/utils/compilers/typescript",
   "main": "dist/index.js",
   "dependencies": {
