@@ -6,7 +6,7 @@ import convertJestFormatToBitFormat, { getJestFailure } from './resultsAdapter';
 import readResults from './readResults';
 import upath from 'upath';
 
-// Enforce enzyme dependency
+// Enforce react dependency
 import 'react';
 import 'react-dom';
 
@@ -17,9 +17,6 @@ import 'enzyme-to-json/serializer';
 
 // Enforce jsdom dependency, so we'd get ~11.11.0, and avoid the fatal localStorage bug in 11.12.0
 import 'jsdom';
-
-// Enforce identity-obj-proxy dependency
-import 'identity-obj-proxy';
 
 const run = (specFile) => {
     const convertedSpecFile = upath.normalize(specFile);
