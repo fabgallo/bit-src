@@ -1,4 +1,3 @@
-import "enzyme-to-json/serializer";
 import fileMock from "./fileMock";
 import styleMock from "./styleMock";
 

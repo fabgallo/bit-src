@@ -15,7 +15,7 @@ import 'enzyme';
 import 'enzyme-adapter-react-16';
 import 'enzyme-to-json/serializer';
 
-// Enforce jsdom dependency, so we'd get ~11.11.0, and avoid the fatal localStorage bug in 11.12.0
+// Enforce jsdom dependency
 import 'jsdom';
 
 const run = (specFile) => {

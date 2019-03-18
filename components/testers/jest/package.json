@@ -1,20 +1,20 @@
 {
   "name": "@bit/upchain.utils.testers.jest",
-  "version": "0.0.53",
+  "version": "0.0.57",
   "homepage": "https://bitsrc.io/upchain/utils/testers/jest",
   "main": "dist/index.js",
   "dependencies": {
     "@bit/bit.utils.file.extract-file-name-from-path": "^1.0.0",
     "@bit/bit.utils.validation.empty": "^1.0.0",
     "child-process-promise": "^2.2.1",
-    "enzyme": "3.8.0",
-    "enzyme-adapter-react-16": "1.7.1",
+    "enzyme": "3.9.0",
+    "enzyme-adapter-react-16": "1.11.2",
     "enzyme-to-json": "3.3.5",
-    "jest": "23.6.0",
-    "jsdom": "~11.11.0",
+    "jest": "24.5.0",
+    "jsdom": "14.0.0",
     "react": "16.7.0",
     "react-dom": "16.7.0",
-    "upath": "^1.1.0"
+    "upath": "1.1.2"
   },
   "devDependencies": {},
   "peerDependencies": {},
