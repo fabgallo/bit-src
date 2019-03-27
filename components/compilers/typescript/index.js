@@ -26,6 +26,7 @@ const compile = (files, distPath) => {
     module: ts.ModuleKind.CommonJS,
     sourceMap: true,
     esModuleInterop: true,
+    experimentalDecorators: true,
     jsx: 'react'
   };
 
